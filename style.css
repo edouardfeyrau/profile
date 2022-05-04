@@ -1,0 +1,91 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+
+body {
+  background-color: #F7F9FC;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  font-size: 17px;
+}
+
+.container {
+  width: 900px;
+  margin: 20px auto;
+  }
+
+.card {
+  background: white;
+  border-radius: 5px;
+  padding: 35px;
+  text-align: center;
+  box-shadow: 1px 1px 20px #F6F6F6 ;
+}
+
+.card > img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 50%;
+}
+
+h1, h2, h3 {
+  color: #3e3e42;
+  font-family: 'Roboto', sans-serif;
+  font-size: 200;
+}
+
+a {
+  color: #6B72E1;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+a:hover {
+  color: Black;
+}
+
+.btn-blue {
+  background-color: #6B72E1;
+  border-radius: 5px;
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 30px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+#weird {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1200px) {
+  .container {
+  width: 900px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 600px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 400px;
+  }
+}
